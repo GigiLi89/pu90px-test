@@ -1,0 +1,14 @@
+/* Imported Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+/* Asterisk */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(214,211,211);
+    background: linear-gradient(180deg, rgba(214,211,211,1) 0%, rgba(146,142,142,1) 100%);
+    background-attachment: fixed;
+    height: 100vh;
+}
