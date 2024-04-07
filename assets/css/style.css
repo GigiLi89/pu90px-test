@@ -4,11 +4,14 @@
 /* Asterisk */
 * {
     font-family: 'Montserrat', sans-serif;
+    align-items: center;
 }
 
 body {
+    /* Background Gradiant: https://cssgradient.io/ */
     background: rgb(214,211,211);
     background: linear-gradient(180deg, rgba(214,211,211,1) 0%, rgba(146,142,142,1) 100%);
     background-attachment: fixed;
     height: 100vh;
+    text-align: center;
 }
