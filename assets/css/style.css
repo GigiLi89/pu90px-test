@@ -1,5 +1,5 @@
 /* Imported Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Asterisk */
 * {
@@ -9,23 +9,48 @@
 }
 
 body {
-    /* Background Gradiant: https://cssgradient.io/ */
+    /* Background Gradient: https://cssgradient.io/ */
     background: rgb(214,211,211);
-    background: linear-gradient(180deg, rgba(214,211,211,1) 0%, rgba(146,142,142,1) 100%);
+    background: linear-gradient(180deg, rgba(214,211,211,1) 50%, rgba(146,142,142,1) 100%);
     background-attachment: fixed;
     height: 100vh;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Fallback font is sans-serif */
+    font-weight: 400; /* Specify the desired font weight */
+}
+
+#logo {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
     /* Hero goes here */
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
 
+header #hero {
+    height: 200px;
+    width: 100%;
+    background: url("../images/hero.png") no-repeat center, center/cover;
+}
+
+#header-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    position: center;
+    padding-top: 80px;
+    min-height: 200px;
+}
 
     /* Navbar goes here */
 
 #presentation p {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 600;
     margin: 10px;
-    padding: 10px;
+    padding-top: 20px;
 }
